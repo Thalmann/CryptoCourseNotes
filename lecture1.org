@@ -1,0 +1,27 @@
+* Intro
+** SSL/TLS no eavesdropping
+** SSL/TLS has two parts:
+*** Handshake protocol
+**** Exchange key by public key cryptography
+*** Communication between the two - Record layer
+**** Encrypted messages with the key
+** Symmetric Encryption
+*** Alice and Bob share a secret key
+*** Everything else is public
+*** Only use known encryption algorithms
+** Single use key is a one time key 
+*** used for instance for encrypted emails
+** Multi use key - many time key
+*** Same key for many files
+*** Is more complex
+** Crypto is useless when:
+*** Implemented with bugs - channel attacks
+*** Social engineering attacks etc.
+*** Do not invent it urself!
+* What is Cryptography
+** Secure key establishment
+** Secure communication
+** Digital Signature
+** Mix net for instance tor project
+** Protocols
+** 
